@@ -16,7 +16,6 @@ It includes PDF report generation, user authentication, and dynamic menus for di
 - 🎨 Responsive interface using Bootstrap
 
 ---
----
 
 ## 🖼️ Screenshots
 
