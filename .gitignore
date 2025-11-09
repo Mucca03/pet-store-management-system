@@ -1,0 +1,13 @@
+# Ignorar archivo con credenciales reales
+ConfiguracionBD/ConexionBD.php
+
+# Ignorar exportaciones o copias locales
+*.sql
+*.db
+*.log
+
+# Archivos temporales o IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

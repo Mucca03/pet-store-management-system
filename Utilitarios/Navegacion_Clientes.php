@@ -1,0 +1,35 @@
+<?php
+echo '<nav class="navbar navbar-expand-lg navbar-dark bg-primary">';
+echo '  <a class="navbar-brand" href="/proyAppsMascotas/Menu/MenuClientes.php">';
+echo '    <img src="/proyAppsMascotas/Imagenes/peludos.png" alt="Logo de Peludos ASTY" height="30">';
+echo '    Peludos ASTY';
+echo '  </a>';
+echo '  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">';
+echo '    <span class="navbar-toggler-icon"></span>';
+echo '  </button>';
+echo '  <div class="collapse navbar-collapse" id="navbarNavDropdown">';
+echo '    <ul class="navbar-nav">';
+echo '      <li class="nav-item dropdown">';
+echo '        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+echo '          <i class="fas fa-boxes"></i> Productos';
+echo '        </a>';
+echo '        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">';
+echo '          <a class="dropdown-item" href="/proyAppsMascotas/Productos/Inv_Productos_Clientes.php"><i class="fas fa-warehouse"></i> Stock</a>';
+echo '        </div>';
+echo '      </li>';
+echo '      <li class="nav-item dropdown">';
+echo '        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+echo '          <i class="fas fa-receipt"></i> Facturación';
+echo '        </a>';
+echo '        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">';
+echo '          <a class="dropdown-item" href="../Ventas/Comprar.php"><i class="fas fa-shopping-bag"></i> Comprar</a>';
+echo '        </div>';
+echo '      </li>';
+echo '      <li class="nav-item">';
+echo '        <a class="nav-link" href="../Utilitarios/CerrarSesion.php"><i class="fas fa-sign-out-alt"></i> Salir</a>';
+echo '      </li>';
+echo '    </ul>';
+echo '  </div>';
+echo '</nav>';
+echo '<hr>';
+?>     
